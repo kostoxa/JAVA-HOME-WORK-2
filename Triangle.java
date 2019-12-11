@@ -11,7 +11,7 @@ public class Triangle extends Shape {
         this.a = a;
         this.b = b;
         this.c = c;
-        if (a >= b+c || b >= a+c || c >= a+b){
+        if (a > b+c || b > a+c || c > a+b){
             System.out.println("One side of triangle can't be bigger than sum of others two!");
         }
         s = (a + b + c) / 2;
